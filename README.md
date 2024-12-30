@@ -35,7 +35,7 @@ A program included 3 files; _Program.java_, _Student.java_, and _Sorting.java_.
      java Program -f 953102_studentlist.csv
    ```
 4. The result will be the output of sorted student list base on your command given.
-   for example, to sort the "953102_studentlit.csv" by students first name.
+   for example, to sort the "953102_studentlist.csv" by students first name.
    ```
    652115002 ADAM ANGEL
    622115054 BETTY SLEEP
@@ -45,32 +45,36 @@ A program included 3 files; _Program.java_, _Student.java_, and _Sorting.java_.
    .
    662145004 ZAPHYR ROSE
    ```
-5. In case if you want to search if the student first name is in the list or not you can perform after do the sorting command by Run this format:
+5. You will get the sorted list in _”sortedstudent.csv”_ file. This file will be used for searching student later.
+6. In case if you want to search if the student first name is in the list or not you can perform after do the sorting command by Run this format :
    ```
    javac Program -s [firstname]
    ```
-   for example, to sort the "953102_studentlit.csv" by students first name.
+   for example, to search for student name “Catherine” in "953102_studentlist.csv".
 
 ## Expected output
-### - Input:
+### - CSV File Input (Example file name: 953102_roster.csv):
    ```csv file contain
-   SID, First Name, Last Name, Age, Address
-   12345, John, Doe, 20, Some Address
+
    ```
    
 ### - Output:
+#### Run command: % java Program -f 953102_roster.csv
    ```run the -f command.
    SID: 12345, First Name: John, Last Name: Doe
    ```
-   
+
+#### Run command: % java Program -l 953102_roster.csv
    ```run the -l command.
    SID: 12345, First Name: John, Last Name: Doe
    ```
-   
+
+#### Run command % java Program -n 953102_roster.csv
    ```run the -n command.
    SID: 12345, First Name: John, Last Name: Doe
    ```
 
+#### Run command % java Program -s John
    ```run the -s command after sorted.
    SID: 12345, First Name: John, Last Name: Doe
    ```
