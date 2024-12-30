@@ -10,7 +10,7 @@ A program included 3 files; _Program.java_, _Student.java_, and _Sorting.java_.
 - CSV file
 
 ## Compiling Instructions
-1. Clone or download this repository to your local machine. (must included all the java file)
+1. Clone or download this repository to your local machine and unzip the downloaded file. (must included all the java file)
 2. Open the terminal and go to the directory where you stored this repository.
 3. Once you get to the directory with all the java file.
    Run the command in your terminal:
