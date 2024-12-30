@@ -55,26 +55,52 @@ A program included 3 files; _Program.java_, _Student.java_, and _Sorting.java_.
 ## Expected output
 ### - CSV File Input (Example file name: 953102_roster.csv):
    ```csv file contain
-
+Header1
+Header2
+.
+.
+.
+Header7
+1,675000007,DAVE,FAST
+2,675000002,BETTY,BECKER
+3,635000013,SAMANTHA,ARMSTRONGER
+4,675000001,ALAN,DEEP
+5,625000007,ZOEY,CREAM
    ```
    
 ### - Output:
 #### Run command: % java Program -f 953102_roster.csv
    ```run the -f command.
-   SID: 12345, First Name: John, Last Name: Doe
+   675000001 ALAN DEEP
+   675000002 BETTY BECKER
+   675000007 DAVE FAST
+   635000013 SAMANTHA ARMSTRONGER
+   625000007 ZOEY CREAM
    ```
 
 #### Run command: % java Program -l 953102_roster.csv
    ```run the -l command.
-   SID: 12345, First Name: John, Last Name: Doe
+   635000013 SAMANTHA ARMSTRONGER
+   675000002 BETTY BECKER
+   625000007 ZOEY CREAM
+   675000001 ALAN DEEP
+   675000007 DAVE FAST
    ```
 
 #### Run command % java Program -n 953102_roster.csv
    ```run the -n command.
-   SID: 12345, First Name: John, Last Name: Doe
+   625000007 ZOEY CREAM
+   635000013 SAMANTHA ARMSTRONGER
+   675000001 ALAN DEEP
+   675000002 BETTY BECKER
+   665000007 DAVE FAST
    ```
 
-#### Run command % java Program -s John
-   ```run the -s command after sorted.
-   SID: 12345, First Name: John, Last Name: Doe
+#### Run command % java Program -s Betty after -n sorting.
+   ```run the -s command after do -n sorted.
+   Found at index 3.
+   ```
+#### Run command % java Program -s John after -n sorting.
+   ```
+   Not found.
    ```
