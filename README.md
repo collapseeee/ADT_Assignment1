@@ -51,6 +51,10 @@ A program included 3 files; _Program.java_, _Student.java_, and _Sorting.java_.
    javac Program -s [firstname]
    ```
    for example, to search for student name “Catherine” in "953102_studentlist.csv".
+   ```
+   java Program -f 953102_studentlist.csv
+   java Program -s Catherine
+   ```
 
 ## Expected output
 ### - CSV File Input (Example file name: 953102_roster.csv):
